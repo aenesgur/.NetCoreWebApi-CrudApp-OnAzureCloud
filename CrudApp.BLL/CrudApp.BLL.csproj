@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CrudApp.Cache\CrudApp.Cache.csproj" />
+    <ProjectReference Include="..\CrudApp.Data\CrudApp.Data.csproj" />
+    <ProjectReference Include="..\CrudApp.Entities\CrudApp.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
